@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Large raw data
+raw_downloads/
+
+# Audio files (labels CSV kept)
+data/*/audio/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
